@@ -1,0 +1,12 @@
+Source: ros-melodic-schunk-svh
+Section: misc
+Priority: optional
+Maintainer: Stefan Scherzinger <scherzin@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-schunk-svh
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-schunk-svh-description, ros-melodic-schunk-svh-driver, ros-melodic-schunk-svh-msgs
+Description: ROS1 specific packages for the Schunk SVH five finger hand
