@@ -1,0 +1,12 @@
+Source: ros-melodic-schunk-svh-driver
+Section: misc
+Priority: optional
+Maintainer: Stefan Scherzinger <scherzin@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-catkin, ros-melodic-combined-robot-hw, ros-melodic-controller-manager, ros-melodic-dynamic-reconfigure, ros-melodic-hardware-interface, ros-melodic-joint-limits-interface, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-schunk-svh-description, ros-melodic-schunk-svh-library, ros-melodic-schunk-svh-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: http://www.ros.org/wiki/schunk_svh_driver
+Standards-Version: 3.9.2
+
+Package: ros-melodic-schunk-svh-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, ros-melodic-actionlib, ros-melodic-combined-robot-hw, ros-melodic-controller-manager, ros-melodic-dynamic-reconfigure, ros-melodic-hardware-interface, ros-melodic-joint-limits-interface, ros-melodic-joint-state-controller, ros-melodic-joint-state-publisher, ros-melodic-joint-trajectory-controller, ros-melodic-pluginlib, ros-melodic-python-qt-binding, ros-melodic-qt-gui, ros-melodic-robot-state-publisher, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-rqt-gui, ros-melodic-rqt-gui-py, ros-melodic-schunk-svh-description, ros-melodic-schunk-svh-library, ros-melodic-schunk-svh-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-urdf, ros-melodic-xacro
+Description: ROS1 driver for the Schunk SVH five finger hand
