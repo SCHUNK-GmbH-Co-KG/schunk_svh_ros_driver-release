@@ -1,0 +1,12 @@
+Source: ros-noetic-schunk-svh-driver
+Section: misc
+Priority: optional
+Maintainer: Stefan Scherzinger <scherzin@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-catkin, ros-noetic-combined-robot-hw, ros-noetic-controller-manager, ros-noetic-dynamic-reconfigure, ros-noetic-hardware-interface, ros-noetic-joint-limits-interface, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-schunk-svh-description, ros-noetic-schunk-svh-library, ros-noetic-schunk-svh-msgs, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Homepage: http://www.ros.org/wiki/schunk_svh_driver
+Standards-Version: 3.9.2
+
+Package: ros-noetic-schunk-svh-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-rospkg, ros-noetic-actionlib, ros-noetic-combined-robot-hw, ros-noetic-controller-manager, ros-noetic-dynamic-reconfigure, ros-noetic-hardware-interface, ros-noetic-joint-limits-interface, ros-noetic-joint-state-controller, ros-noetic-joint-state-publisher, ros-noetic-joint-trajectory-controller, ros-noetic-pluginlib, ros-noetic-python-qt-binding, ros-noetic-qt-gui, ros-noetic-robot-state-publisher, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-rqt-gui, ros-noetic-rqt-gui-py, ros-noetic-schunk-svh-description, ros-noetic-schunk-svh-library, ros-noetic-schunk-svh-msgs, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-urdf, ros-noetic-xacro
+Description: ROS1 driver for the Schunk SVH five finger hand
