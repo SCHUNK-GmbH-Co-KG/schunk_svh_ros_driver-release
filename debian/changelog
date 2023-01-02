@@ -1,0 +1,13 @@
+ros-noetic-schunk-svh-simulation (0.1.1-1buster) buster; urgency=high
+
+  * Merge pull request #18 <https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver/issues/18> from fzi-forschungszentrum-informatik/add-gazebo-example
+    Add an example setup for Gazebo
+  * Add a readme for the simulation
+  * Add a dedicated simulation package
+    That's cleaner and keeps Gazebo simulation specific configuration
+    separate from the actual driver.
+  * Contributors: Stefan Scherzinger
+
+ -- Stefan Scherzinger <scherzin@fzi.de>  Mon, 19 Dec 2022 23:00:00 -0000
+
+
