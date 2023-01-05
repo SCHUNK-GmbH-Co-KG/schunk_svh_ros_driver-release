@@ -1,0 +1,12 @@
+Source: ros-noetic-schunk-svh-simulation
+Section: misc
+Priority: optional
+Maintainer: Stefan Scherzinger <scherzin@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-schunk-svh-simulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-schunk-svh-description
+Description: A Gazebo-based simulation environment for the Schunk SVH
