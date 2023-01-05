@@ -1,0 +1,12 @@
+Source: ros-melodic-schunk-svh-msgs
+Section: misc
+Priority: optional
+Maintainer: Stefan Scherzinger <scherzin@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-std-msgs, ros-melodic-std-srvs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-schunk-svh-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib-msgs, ros-melodic-message-generation, ros-melodic-message-runtime, ros-melodic-std-msgs, ros-melodic-std-srvs
+Description: ROS1 messages, services, and actions for the Schunk SVH five finger hand
